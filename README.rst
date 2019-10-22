@@ -23,6 +23,7 @@ Image build procedure
      cd poky-hs
      source ./oe-init-build-env
      bitbake-layers add-layer ../../meta-oe/meta-oe/
+     bitbake-layers add-layer ../../meta-oe/meta-networking/
      bitbake-layers add-layer ../../meta-sunxi/
      bitbake-layers add-layer ../../meta-happysnail-bsp/
 

@@ -1,0 +1,17 @@
+/dts-v1/;
+
+#include "sun8i-h2-plus-orangepi-zero.dts"
+
+/* Enable more UARTs */
+
+&uart1 {
+	pinctrl-names = "default";
+	pinctrl-0 = <&uart1_pins>;
+	status = "okay";
+};
+
+&uart2 {
+	pinctrl-names = "default";
+	pinctrl-0 = <&uart2_pins>;
+	status = "okay";
+};
